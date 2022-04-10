@@ -1,0 +1,30 @@
+.form__intro {
+  font: 400 14px/18px $font-family;
+  margin-bottom: 39px;
+  text-transform: uppercase;
+}
+
+.form__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.form__field {
+  margin-bottom: 10px;
+}
+
+.form__program-type {
+  padding-top: 22px;
+  padding-bottom: 19px;
+  border-top: 1px solid $grey-2;
+  border-bottom: 1px solid $grey-2;
+}
+
+.form__title {
+  margin-bottom: 35px;
+}
+
+.form__note {
+  font: 400 14px/16px "Arial", sans-serif;
+}

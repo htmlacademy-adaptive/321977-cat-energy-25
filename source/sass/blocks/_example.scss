@@ -1,0 +1,29 @@
+.example {
+  background-color: $background-color;
+  padding: 25px 20px 40px;
+}
+
+.example__info {
+  margin-bottom: 40px;
+}
+
+.example__title {
+  margin: 0 0 40px;
+}
+
+.example__text {
+  margin-bottom: 20px;
+  font: 400 14px/18px "Arial", sans-serif;
+  color: $special-dark-grey;
+}
+
+.example__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.example__total {
+  font: 400 14px/20px $font-family;
+  text-transform: uppercase;
+}

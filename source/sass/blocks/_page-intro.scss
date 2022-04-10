@@ -1,0 +1,36 @@
+.page-intro {
+  position: relative;
+  padding-top: 28px;
+  text-align: center;
+  width: 320px;
+  line-height: 1;
+
+  &::before {
+    content: "";
+    background: $basic-green url("../img/index-intro.jpg") no-repeat center bottom;
+    position: absolute;
+    width: 320px;
+    height: 302px;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    display: block;
+  }
+}
+
+.page-intro__title {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.page-intro__subtitle {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.page-intro__button {
+  font-size: 14px;
+  line-height: 18px;
+}
