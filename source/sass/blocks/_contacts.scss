@@ -1,0 +1,18 @@
+.contacts--background {
+  .contacts__info {
+    background-color: $basic-grey;
+  }
+}
+
+.contacts__info {
+  padding: 26px 20px;
+}
+
+.contacts__title {
+  font: 400 16px/20px $font-family;
+  text-transform: uppercase;
+}
+
+.contacts__address {
+  font: 400 14px/20px "Arial", sans-serif;
+}

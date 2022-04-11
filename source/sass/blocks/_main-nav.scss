@@ -1,0 +1,25 @@
+.main-nav__list {
+  font-weight: 400;
+  list-style: none;
+}
+
+.main-nav__item {
+  text-transform: uppercase;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: $black;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.main-nav__item--active a {
+  border-bottom: 2px solid $basic-green;
+}

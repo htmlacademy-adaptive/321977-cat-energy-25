@@ -1,0 +1,23 @@
+.additional-product {
+  border-bottom: 1px solid $special-grey;
+  padding-top: 13px;
+  padding-bottom: 19px;
+}
+
+.additional-product__title {
+  margin: 0 0 13px;
+  font: 400 16px/1 $font-family;
+}
+
+.additional-product__specification {
+  margin-bottom: 15px;
+  font: 400 14px/1 "Arial", sans-serif;
+}
+
+.additional-product__amount {
+  margin: 0;
+}
+
+.additional-product__price {
+  margin: 0;
+}

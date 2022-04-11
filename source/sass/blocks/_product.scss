@@ -1,0 +1,20 @@
+.product__title {
+  font: 400 16px/20px $font-family;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  color: $special-dark-grey-2;
+}
+
+.product__specification {
+  margin: 0;
+  font: 400 12px/16px "Arial", sans-serif;
+  color: $special-dark-grey;
+
+  dd {
+    margin: 0;
+  }
+}
+
+.page-intro__button {
+  margin-top: 13px;
+}
