@@ -8,12 +8,13 @@
   </head>
   <body class="page__body">
     <header class="page-header">
-      <a class="page-header__logo">
-        <img class="page-header__logo-image" src="img/logo-small.svg" width="34" height="38" alt="Логотип">
-        <img class="page-header__logo-title" src="img/logo.svg" width="101" height="18" alt="Cat energy">
-      </a>
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <div class="page-header__wrapper">
+        <a class="page-header__logo">
+          <img class="page-header__logo-image" src="img/logo-small.svg" width="34" height="38" alt="Логотип">
+          <img class="page-header__logo-title" src="img/logo.svg" width="101" height="18" alt="Cat energy">
+        </a>
+        <nav class="main-nav">
+          <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
           <ul class="main-nav__list">
             <li class="main-nav__item main-nav__item--active">
               <a>Главная</a>
@@ -25,7 +26,8 @@
               <a href="form.html">Подбор программы</a>
             </li>
           </ul>
-      </nav>
+        </nav>
+      </div>
     </header>
     <main class="main">
       <section class="main__intro page-intro">
@@ -38,13 +40,13 @@
       <section class="main__categories categories">
         <div class="categories__wrapper">
           <h2 class="visually-hidden">Категории продукции</h2>
-          <article class="categories__item category">
+          <article class="categories__item category category--slim">
             <img src="img/cat-slim.svg" width="50" height="53" alt="">
             <h3 class="category__title">Похудение</h3>
             <p class="category__description">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
             <a class="category__link" href="">Каталог slim</a>
           </article>
-          <article class="categories__item category">
+          <article class="categories__item category category--pro">
             <img src="img/cat-pro.svg" width="67" height="50" alt="">
             <h3 class="category__title">Набор массы</h3>
             <p class="category__description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
@@ -74,33 +76,37 @@
       </section>
 
       <section class="example">
-        <h2 class="example__title title">Живой пример</h2>
-        <p class="example__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день. </p>
-        <div class="example__info">
-          <ul class="example__list">
-            <li class="example__item example-info">
-              <p class="example-info__value">5 кг</p>
-              <p class="example-info__description">снижение<br> веса</p>
-            </li>
-            <li class="example__item example-info">
-              <p class="example-info__value">60 дней</p>
-              <p class="example-info__description">затрачено<br> времени</p>
-            </li>
-          </ul>
-          <p class="example__total">Затраты на питание:<span class="example__total-value"> 15 000 руб.</span></p>
-        </div>
-        <div class="example__comparison comparison">
-          <div class="comparison__images">
-            <img class="comparison__image comparison__image--before" src="img/cat_before.png"  width="280" height="232" alt="Кот до прохождения программы">
-            <img class="comparison__image comparison__image--after" src="img/cat_after.png" width="243" height="232" alt="Кот после прохождения программы">
-          </div>
-          <div class="comparison__controls">
-            <button class="comparison__button comparison__button--before" type="button">Было</button>
-            <div class="comparison__range comparison-range">
-              <div class="comparison-range__bar"></div>
-              <div class="comparison-range__toggle"></div>
+        <div class="example__wrapper">
+          <div class="example__text-content">
+            <h2 class="example__title title">Живой пример</h2>
+            <p class="example__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день. </p>
+            <div class="example__info">
+              <ul class="example__list">
+                <li class="example__item example-info">
+                  <p class="example-info__value">5 кг</p>
+                  <p class="example-info__description">снижение<br> веса</p>
+                </li>
+                <li class="example__item example-info">
+                  <p class="example-info__value">60 дней</p>
+                  <p class="example-info__description">затрачено<br> времени</p>
+                </li>
+              </ul>
+              <p class="example__total">Затраты на питание:<span class="example__total-value"> 15 000 руб.</span></p>
             </div>
-            <button class="comparison__button comparison__button--before" type="button">Стало</button>
+          </div>
+          <div class="example__comparison comparison">
+            <div class="comparison__images">
+              <img class="comparison__image comparison__image--before" src="img/cat_before.png"  width="280" height="232" alt="Кот до прохождения программы">
+              <img class="comparison__image comparison__image--after" src="img/cat_after.png" width="243" height="232" alt="Кот после прохождения программы">
+            </div>
+            <div class="comparison__controls">
+              <button class="comparison__button comparison__button--before" type="button">Было</button>
+              <div class="comparison__range comparison-range">
+                <div class="comparison-range__bar"></div>
+                <div class="comparison-range__toggle"></div>
+              </div>
+              <button class="comparison__button comparison__button--before" type="button">Стало</button>
+            </div>
           </div>
         </div>
       </section>
